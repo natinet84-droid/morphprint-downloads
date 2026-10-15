@@ -4,7 +4,6 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 function mp_defaults() {
 	return array(
-		'download_url' => 'https://github.com/natinet84-droid/morphprint-downloads/releases/latest',
 		'phone'        => '',
 		'whatsapp'     => '',
 		'email'        => '',
@@ -40,7 +39,7 @@ add_action( 'wp_head', function () {
 	echo '<link rel="icon" href="' . esc_url( get_theme_file_uri( 'assets/icon.png' ) ) . '">' . "\n";
 }, 1 );
 
-/* Customizer: contact details, price, download link */
+/* Customizer: contact details, price */
 add_action( 'customize_register', function ( $c ) {
 	$c->add_section( 'mp_site', array( 'title' => 'MorphPrint: פרטי האתר', 'priority' => 30 ) );
 	$fields = array(
@@ -48,7 +47,6 @@ add_action( 'customize_register', function ( $c ) {
 		'whatsapp'     => array( 'וואטסאפ (מספר, למשל 972501234567)', 'text' ),
 		'email'        => array( 'מייל להצגה ולקבלת פניות', 'email' ),
 		'price'        => array( 'מחיר רישיון (ריק = לא מוצג)', 'text' ),
-		'download_url' => array( 'קישור להורדה', 'url' ),
 	);
 	$d = mp_defaults();
 	foreach ( $fields as $k => $f ) {

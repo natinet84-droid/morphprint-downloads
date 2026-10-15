@@ -6,10 +6,10 @@
     <h1>מספור רץ ומידע משתנה, <em>ישר מהמדפסת</em></h1>
     <p class="lead">פנקסי חשבוניות וקבלות, גיליונות מדבקות, כרטיסים ממוספרים, שוברים ותגי שם. בוחרים גודל ועיצוב, MorphPrint ממספרת, מסדרת על הגיליון ושולחת כל עותק למגש הנכון.</p>
     <div class="ctas">
-      <a class="btn pri" href="#download"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>הורדה בחינם לניסיון</a>
+      <a class="btn pri" href="#contact">לקבלת התוכנה</a>
       <a class="btn sec" href="#products">מה אפשר להדפיס</a>
     </div>
-    <p class="small">גרסת הניסיון מלאה ומדפיסה עם סימן מים. רישיון מסיר אותו.</p>
+    <p class="small">פונים אלינו, מקבלים את התוכנה ומתחילים לעבוד.</p>
     <div class="counter" aria-hidden="true"><span class="stamp" id="stamp">№ <span class="d" id="cnt">1001</span></span><span class="small">כל דף מקבל מספר משלו, גם במקור וגם בהעתק, לאורך כל הפנקסים.</span></div>
   </div>
   <figure class="shot" style="margin:0"><div class="chrome"><i></i><i></i><i></i></div><img src="<?php echo esc_url( get_theme_file_uri( 'assets/print-book.webp' ) ); ?>" alt="מסך התצוגה וההדפסה: שני דפי חשבונית מס/קבלה בגודל A5 על גיליון A4, עם מספרים 1001 ו-1251, ובצד הגדרות כמות פנקסים, דפים, עותקים ומגשים" width="1360" height="820"></figure>
@@ -88,32 +88,6 @@
     <h2 style="font-size:clamp(26px,3.2vw,36px)">רשימה אחת, כרטיס לכל עובד</h2>
     <p>מעלים קובץ אקסל עם שמות, תפקידים ומספרי עובד, ומוסיפים את התמונות בבת אחת. התמונה של כל עובד נמצאת לפי שם הקובץ שרשום ברשימה.</p>
     <p>מדפיסים על גיליון וחותכים, או שולחים כרטיס אחרי כרטיס למדפסת כרטיסים.</p>
-  </div>
-</div></section>
-
-<section id="download"><div class="wrap">
-  <div class="sec-h"><span class="eyebrow">הורדה</span><h2>להוריד ולהתחיל לעבוד</h2><p>אותו קובץ התקנה לניסיון ולשימוש מלא. אחרי ההתקנה מזינים מפתח רישיון ממסך ההגדרות.</p></div>
-  <div class="dl">
-    <div class="dl-card">
-      <h3><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>Windows</h3>
-      <a class="btn pri" href="<?php echo esc_url( mp_opt( 'download_url' ) ); ?>" target="_blank" rel="noopener">הורדה ל-Windows</a>
-      <ol>
-        <li>בדף שנפתח לוחצים על הקובץ <span class="num">MorphPrint-Setup-….exe</span>.</li>
-        <li>פותחים את הקובץ שירד. אם מופיע חלון כחול של Windows, לוחצים "מידע נוסף" ואז "הפעל בכל זאת".</li>
-        <li>ההתקנה מסתיימת ו-MorphPrint נפתחת.</li>
-      </ol>
-      <p class="req">Windows 10 או 11, ‏64 ביט.</p>
-    </div>
-    <div class="dl-card">
-      <h3><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.5 2.1-3.6-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-4M14 5.6c.7-.8 1.1-1.9 1-3-1 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3"/></svg>Mac</h3>
-      <a class="btn pri" href="<?php echo esc_url( mp_opt( 'download_url' ) ); ?>" target="_blank" rel="noopener">הורדה ל-Mac</a>
-      <ol>
-        <li>בדף שנפתח לוחצים על הקובץ <span class="num">MorphPrint-….dmg</span>.</li>
-        <li>פותחים אותו וגוררים את MorphPrint לתיקיית Applications.</li>
-        <li>בפתיחה הראשונה: קליק ימני על MorphPrint ואז "פתח". אם עדיין חסום, מאשרים בהגדרות המערכת, תחת פרטיות ואבטחה.</li>
-      </ol>
-      <p class="req">macOS 11 ומעלה, מעבדי Intel ו-Apple Silicon.</p>
-    </div>
   </div>
 </div></section>
 
